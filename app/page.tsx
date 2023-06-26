@@ -13,10 +13,10 @@ export default async function Home() {
      <div className='hidden lg:flex'>
      <LateralBar/>
      </div>
-    <h1 className='font-bold pt-10 mx-10 xl:pl-[190px] lg:pl-[260px] 2xl:pl-[80px]'>
+    <h1 className='font-bold pt-10 mx-10 xl:pl-[190px] lg:pl-[260px]'>
       Recommended for you
     </h1>
-    <div className='mx-10 xl:pl-[190px] lg:pl-[260px] 2xl:pl-[80px] gap-y-4 md:gap-x-4 py-6'>
+    <div className='mx-10 xl:pl-[190px] lg:pl-[260px] gap-y-4 md:gap-x-4 py-6'>
      {/* Feed */}
       {session ? <CustomFeed/> : <GeneralFeed/>}
     </div>
